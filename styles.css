@@ -1,0 +1,65 @@
+.Pink{
+    background-color: #ffdde2;
+}
+h1{
+    font-size: 150px;
+    color: white;
+    font-family: Brush Script MT;
+    text-align: center;
+}
+
+#headingone{
+    border: 15px solid transparent;
+    border-image: linear-gradient(to right, #e5f8d2, white, #e5f8d2); 
+    border-image-slice: 1;
+    padding: 10px;
+}
+
+h2{
+    font-size: 50px;
+    color: darkred;
+    padding: 10px;
+    font-family: arial;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding; 20px;
+}
+
+.item {
+    display: block;
+    background-color: #e5f8d2;
+    color: darkred;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 15px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+ .item:hover {
+    background-color: lightpink;
+  }
+  
+button{
+    border-color: darkred;
+}
+  
+hr{
+    background-image : linear-gradient(to right, white, #e5f8d2, white);
+    border-color: darkred;
+   height: 15px;
+}
+  
+  
+  
+  
