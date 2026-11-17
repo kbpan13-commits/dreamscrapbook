@@ -6,6 +6,11 @@ h1{
     color: white;
     font-family: Brush Script MT;
     text-align: center;
+     text-shadow:
+        -2px -2px darkred,  
+         2px -2px darkred,
+        -2px  2px darkred,
+         2px  2px darkred;
 }
 
 #headingone{
@@ -15,11 +20,46 @@ h1{
     padding: 10px;
 }
 
+.container a {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: #e5f8d2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-shadow:
+        -1px -1px darkred,  
+         1px -1px darkred,
+        -1px  1px darkred,
+         1px  1px darkred;
+    border: 5px solid darkred;
+    image-align: center;
+}
+
+img{
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h2{
     font-size: 50px;
     color: darkred;
     padding: 10px;
+    font-family: serif;
+    text-align: center;
+    font-weight: 100;
+}
+
+p{
+    color: darkred;
     font-family: arial;
+    font-size: 20px;
+    text-indent: 40px;
     text-align: center;
 }
 
@@ -59,7 +99,25 @@ hr{
     border-color: darkred;
    height: 15px;
 }
-  
-  
-  
-  
+
+table{
+    color: Darkred;
+    border: 5px solid #e5f8d2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;  
+    height: 75%;
+}
+
+tr{
+    border: 5px solid #e5f8d2;
+}
+
+th{
+    border: 5px solid #e5f8d2;
+}
+
+td{
+    border: 5px solid #e5f8d2;
+    text-align: center;
+}
